@@ -14,7 +14,7 @@
 			echo htmlspecialchars ($_GET['angle']);
 		}
 	   ?>">
-Декортовые координаты=<input type="submit" name="compute" value="Вычислить">
+Декартовы координаты=<input type="submit" name="compute" value="Вычислить">
 </form>
 
 <?php
@@ -31,9 +31,8 @@
 			} else {
 				echo number_format((dot_x($_GET['vector'],$_GET['angle'])),2,',','')."</br>";
 				echo number_format((dot_y($_GET['vector'],$_GET['angle'])),2,',','');
-		
-				}
+			}
 		}
 ?>
 </body>	
-</html>	
+</html>
